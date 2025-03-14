@@ -41,6 +41,7 @@ memchr = { workspace = true }
 oxc_ast = { workspace = true, features = ["serialize"] }
 oxc_ast_visit = { workspace = true, features = ["serialize"] }
 pico-args = { workspace = true }
+oxc_codegen  = { workspace = true }
 
 [features]
 # Expose Lexer for benchmarks
